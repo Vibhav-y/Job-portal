@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<span id="top_page"></span>
+<head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="pictures/logo.png" height="70px" alt="logo"></a></div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="job search.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+            <div><li class="left"><a href="SignUp.html">Sign-up</a></li><li class="right"><a href="SignUp.html">Sign-in</a></li></div>    
+        </ul>
+    </div>
+</nav>
+  <hr>
+
+    <main class="job_search">
+        <section id="job-listing">
+            <h2>Job Listings</h2>
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search jobs">
+                <button onclick="searchJobs()">Search</button>
+            </div>
+            <a href="register.html">
+            <div id="jobList">
+                
+            </div></a>
+        </section>
+        <br><br>
+        <section class="job-submission">
+            <h2>Submit a Job</h2>
+            <div class="job_posting">
+            <form id="jobForm">
+               <label for="jobTitle">Job Title</label><br>
+               <input type="text" id="jobTitle" required><hr><br>
+               <label for="companyName">Company Name</label><br>
+               <input type="text" id="companyName" required><hr><br>
+               <label for="jobLocation">Location</label><br>
+               <input type="text" id="jobLocation" required><hr><br>
+               <label for="jobDescription">Job Description</label><br>  
+               <textarea id="jobDescription" rows="2"  required></textarea><br> 
+               <button id='submit_job'type="submit">Submit</button>
+              </form>
+            </div>
+        </section>
+        <br><br>
+      </main>
+      
+      <div class="footer">
+        <div class="contain">
+            <div class="col">
+                <h1>Developers</h1>
+                <ul>
+                    <li>Vibhan Yadav</li>
+                    <li>Priyanshu Tanwar</li>
+                    <li>Suryansh Katara</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Creation</h1>
+                <ul>
+                    <li>Job Portal</li>
+                    <li>responsive pages</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Website pages</h1>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="job search.html"><li>Services</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact us.html"><li>Contact</li></a>
+                    <a href="SignUp.html"><li>Sign-up</li></a>
+                    <a href="SignUp.html"><li>Sign-in</li></a>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>About</h1>
+                <ul>
+                    <li>Terms</li>
+                    <li>Mission</li>
+                    <li>Services</li>
+                    <li>Get in touch</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                    <li>Send Email</li>
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <li><img src="pictures/1.1.png" width="32" style="width: 32px;" alt="facebook"></li>
+                    <li><img src="pictures/2,2.png" width="32" style="width: 32px;" alt="instagram"></li>
+                    <li><img src="pictures/3,3.png" width="32" style="width: 32px;" alt="twitter"></li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <footer class="foot">
+                <p> Copyright © 2023 - All rights Reserved - Designed by Vibhav, Priyanshu & Suryansh </p>
+            </footer>
+    <script src="script.js"></script>
+</body>
+</html>
